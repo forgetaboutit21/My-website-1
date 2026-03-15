@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Interactive Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Interactive Website</h1>
+        <button id="themeToggle">Toggle Dark Mode</button>
+    </header>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>This is a simple website I created while learning web development.</p>
+            <button id="changeTextButton">Click me!</button>
+            <p id="dynamicText">This text will change when you click the button.</p>
+        </section>
+        <section>
+            <h2>Counter</h2>
+            <p>Count: <span id="counterDisplay">0</span></p>
+            <button id="incrementButton">Increment</button>
+            <button id="resetButton">Reset</button>
+        </section>
+        <section>
+            <h2>Leave a Message</h2>
+            <form id="messageForm">
+                <textarea id="messageInput" placeholder="Type your message here..." rows="4"></textarea>
+                <br>
+                <button type="submit">Submit Message</button>
+            </form>
+            <div id="messagesDisplay">
+                <h3>Messages:</h3>
+                <ul id="messagesList"></ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 My Website</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
